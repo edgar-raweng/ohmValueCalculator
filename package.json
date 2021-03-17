@@ -1,0 +1,23 @@
+{
+  "name": "ohmvaluecalculator",
+  "version": "1.0.0",
+  "description": "ohm color value calculator",
+  "main": "index.js",
+  "scripts": {
+    "app": "node app.js",
+    "start": "node index.js",
+    "test": "mocha",
+    "new-test": "mocha test/IToleranceCalculator.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "expect": "^26.6.2",
+    "expect.js": "^0.3.1",
+    "mocha": "^8.3.2"
+  }
+}
